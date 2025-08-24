@@ -10,11 +10,8 @@ import jakarta.mail.Session;
 import jakarta.mail.Store;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import japan.nishi.hiroyuki.IExecutableService;
 
-@Service
 public class MailReceiver implements IExecutableService {
 
     @Autowired
